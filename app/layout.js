@@ -13,11 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="w-full grid place-items-center">
-        <Nav />
-        {children}
-        <Footer />
-      </body>
+      <body className="">{children}</body>
     </html>
   );
 }

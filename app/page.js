@@ -10,6 +10,7 @@ import Nav from "./components/Nav";
 export default function Home() {
   return (
     <main className="w-full grid place-items-center">
+      <Nav />
       <div className="grid w-full place-items-center max-w-7xl px-4 gap-36 pt-32">
         <Hero />
         <AboutUs />
@@ -18,6 +19,7 @@ export default function Home() {
         <Careem />
         <Contact />
       </div>
+      <Footer />
     </main>
   );
 }

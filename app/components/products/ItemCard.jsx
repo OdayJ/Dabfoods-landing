@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
-export default function ItemCard({ children, id, link }) {
+export default function ItemCard({ children, id, image }) {
   return (
     <div className="h-[193px] w-[189px] grid grid-rows-2 border-2 border-[#7B7D80] border-opacity-20 rounded-xl bg-white">
       <div className=" rounded-xl h-full w-full">
         <Image
           alt="contact"
           className="rounded-xl object-cover"
-          src="/Item.jpg"
+          src={image}
           width={0}
           height={0}
           sizes="100vw"
