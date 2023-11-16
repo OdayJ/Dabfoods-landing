@@ -80,7 +80,7 @@ export default function Page() {
               image={item.imageUrl}
               key={item.number}
               id={item.number}
-              name={item.name}
+              children={item.name}
             />
           ))}
         </div>
